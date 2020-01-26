@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    password: '@Javamen1'
+    url: jdbc:mysql://localhost:3307/fornecedor?serverTimezone=UTC&useLegacyDatetimeCode=false
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
